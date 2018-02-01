@@ -1,4 +1,10 @@
- ``` xml 
+
+File: `remote-platform-impl.xml` 
+
+Add the lines `export DISPLAY=:0.0 ; export SKETCHBOOK=$HOME/sketchbook ;`, to enable the sketch to run on the project.
+
+
+``` xml 
 <target name="-copy-to-remote-platform">
       <macrodef name="runwithpasswd" uri="http://www.netbeans.org/ns/j2se-project/remote-platform/1">
             <attribute name="additionaljvmargs" default=""/>
