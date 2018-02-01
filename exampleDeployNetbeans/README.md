@@ -1,3 +1,11 @@
+### Deployment as a Netbeans Project. 
+
+## How to use: 
+
+Open the projet in Netbeans and follow the runtime guide for raspberry pi:
+https://blog.idrsolutions.com/2014/08/using-netbeans-remotely-deploy-projects-raspberry-pi/
+
+### Deployment changes: 
 
 File: `remote-platform-impl.xml` 
 
