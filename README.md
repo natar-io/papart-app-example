@@ -2,6 +2,13 @@
 
 This example shows how to create Papart/Processing application compiled with Maven. 
 
+Run the example:
+``` bash
+cd example
+mvn exec:java -Dexec.mainClass="tech.lity.rea.exemple.SeeThrough"
+``` 
+
+
 ## Requirements. 
 
 You need to the the environment varible `SKETCHBOOK` to your sketchbook folder, so that PapARt can load the configuration files and markers. 
