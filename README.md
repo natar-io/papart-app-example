@@ -5,6 +5,7 @@ This example shows how to create Papart/Processing application compiled with Mav
 Run the example:
 ``` bash
 cd example
+mvn compile
 mvn exec:java -Dexec.mainClass="tech.lity.rea.exemple.SeeThrough"
 ``` 
 
