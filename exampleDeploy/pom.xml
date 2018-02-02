@@ -16,6 +16,11 @@
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
+        
+        <repository>
+            <id>realitytech</id>
+            <url>http://litytechmw.cluster020.hosting.ovh.net/repository/</url>
+        </repository>
 
         <repository>
             <id>central</id>
