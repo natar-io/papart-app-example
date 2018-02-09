@@ -100,7 +100,7 @@
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>jogl</artifactId>
             <version>2.3.2</version>
-            <classifier>natives-${os.type}-amd64</classifier>
+            <classifier>natives-${os.type}-${os.arch}</classifier>
         </dependency>
         
         <dependency>
@@ -112,7 +112,7 @@
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>jogl-all</artifactId>
             <version>2.3.2</version>
-            <classifier>natives-${os.type}-amd64</classifier>
+            <classifier>natives-${os.type}-${os.arch}</classifier>
         </dependency>
    
         
@@ -124,7 +124,7 @@
         <dependency>
             <groupId>org.jogamp.gluegen</groupId>
             <artifactId>gluegen-rt</artifactId>
-            <classifier>natives-${os.type}-amd64</classifier>
+                   <classifier>natives-${os.type}-${os.arch}</classifier>
             <version>2.3.2</version>
         </dependency>
         
@@ -132,14 +132,14 @@
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>newt</artifactId>
             <version>2.3.2</version>
-            <classifier>natives-${os.type}-amd64</classifier>
+              <classifier>natives-${os.type}-amd64</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>nativewindow</artifactId>
             <version>2.3.2</version>
-            <classifier>natives-${os.type}-amd64</classifier>
+              <classifier>natives-${os.type}-amd64</classifier>
         </dependency>
 
         <!--Processing Video-->
@@ -284,7 +284,8 @@
                 </os>
             </activation>
             <properties>
-                <os.type>windows</os.type>
+              <os.type>windows</os.type>
+	      <os.arch>amd64</os.arch>
             </properties>
         </profile>
         <profile>
@@ -295,7 +296,8 @@
                 </os>
             </activation>
             <properties>
-                <os.type>linux</os.type>
+              <os.type>linux</os.type>
+	      <os.arch>amd64</os.arch>
             </properties>
         </profile>
         <profile>
@@ -306,7 +308,8 @@
                 </os>
             </activation>
                       <properties>
-                <os.type>osx</os.type>
+			<os.type>osx</os.type>
+			<os.arch>universal</os.arch>
             </properties>
         </profile>
     </profiles>
