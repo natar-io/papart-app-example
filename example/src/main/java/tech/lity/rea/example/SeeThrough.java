@@ -1,4 +1,4 @@
-package tech.lity.rea.exemple;
+package tech.lity.rea.example;
 
 import processing.core.*;
 import fr.inria.papart.procam.*;
@@ -35,7 +35,7 @@ public class SeeThrough extends PApplet {
      * @param passedArgs the command line arguments
      */
     static public void main(String[] passedArgs) {
-        String[] appletArgs = new String[]{SeeThrough.class.getName()};
+        String[] appletArgs = new String[]{tech.lity.rea.example.SeeThrough.class.getName()};
 //        if (passedArgs != null) {
 //            PApplet.main(concat(appletArgs, passedArgs));
 //        } else {
