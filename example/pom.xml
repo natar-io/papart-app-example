@@ -113,14 +113,14 @@
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>newt</artifactId>
             <version>2.3.2</version>
-            <classifier>natives-${os.type}-{os.arch}</classifier>
+            <classifier>natives-${os.type}-${os.arch}</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.jogamp.jogl</groupId>
             <artifactId>nativewindow</artifactId>
             <version>2.3.2</version>
-            <classifier>natives-${os.type}-{os.arch}</classifier>
+            <classifier>natives-${os.type}-${os.arch}</classifier>
         </dependency>
 
         <dependency>
