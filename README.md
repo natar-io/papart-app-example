@@ -12,8 +12,13 @@ mvn exec:java -Dexec.mainClass="tech.lity.rea.exemple.SeeThrough"
 
 ## Requirements. 
 
-You need to the the environment varible `SKETCHBOOK` to your sketchbook folder, so that PapARt can load the configuration files and markers. 
-You need to install OpenNI if you use the OpenNI cameras. 
+* You need to the the environment varible `SKETCHBOOK` to your sketchbook folder, so that PapARt can load the configuration files and markers. E.g. on linux / OSX: 
+``` bash
+export SKETCHBOOK=$HOME/sketchbook 
+```
+In windows you can find many guides: [guide1](https://www.computerhope.com/issues/ch000549.htm). 
+* You need to install OpenNI/librealsense/libfreenect if you use a depth camera. 
+
 
 ## Deploy on a distant machine 
 
