@@ -12,7 +12,7 @@ mvn exec:java -Dexec.mainClass="tech.lity.rea.exemple.SeeThrough"
 
 ## Requirements. 
 
-* You need to the the environment varible `SKETCHBOOK` to your sketchbook folder, so that PapARt can load the configuration files and markers. E.g. on linux / OSX: 
+* You need to the the environment varible `SKETCHBOOK` to your sketchbook folder, so that PapARt can load the configuration files and markers. E.g. on linux: 
 ``` bash
 export SKETCHBOOK=$HOME/sketchbook 
 ```
