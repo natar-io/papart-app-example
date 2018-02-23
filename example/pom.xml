@@ -310,7 +310,7 @@
                 </os>
             </activation>
                       <properties>
-			<os.type>osx</os.type>
+			<os.type>macosx</os.type>
 			<os.arch>universal</os.arch>
             </properties>
         </profile>
