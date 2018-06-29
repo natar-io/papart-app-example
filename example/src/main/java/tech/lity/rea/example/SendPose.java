@@ -92,14 +92,9 @@ class PoseAPP extends PaperScreen {
         j.setJSONArray("pose", poseJson);
         if (set) {
             redisSend.set(output, poseJson.toString());
-//            System.out.println("Pose set to " + output);
         } else {
             redisSend.publish(output, poseJson.toString());
-//            System.out.println("Pose updated to " + output);
         }
-//        System.out.println("Pose");
-        getLocation().print();
-
     }
 
     public static JSONArray PMatrixToJSON(PMatrix3D mat) {
