@@ -48,7 +48,8 @@ class MyApp extends PaperScreen {
 
     @Override
     public void settings() {
-        // the size of the draw area is 297mm x 210mm.
+        // the size of the 
+        // draw area is 297mm x 210mm.
         setDrawingSize(297, 210);
         // loads the marker that are actually printed and tracked by the camera.
         loadMarkerBoard(Papart.markerFolder + "A4-default.svg", 297, 210);
